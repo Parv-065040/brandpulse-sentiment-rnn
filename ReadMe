@@ -1,29 +1,29 @@
-# 💬 BrandPulse AI: Automated Sentiment Analysis
+#BrandPulse AI: Automated Sentiment Analysis
 
-## 📌 Executive Summary
+##Executive Summary
 Monitoring brand health requires reading thousands of customer reviews, social media mentions, and feedback forms daily. Manual analysis is impossible at scale, leading to delayed responses to customer dissatisfaction or missed marketing opportunities.
 
 BrandPulse AI is a Recurrent Neural Network (RNN) deployed as an interactive web dashboard. It reads raw customer feedback, understands the sequential context of the language, and instantly scores the sentiment as Positive or Negative, allowing for immediate, data-driven business routing.
 
-## 🧠 The Business Value
+##The Business Value
 - **Customer Success Intervention:** Automatically flags highly negative feedback so customer service teams can intervene before churn occurs.
 - **Marketing Amplification:** Identifies highly positive reviews to be utilized as website testimonials or promotional material.
 - **Scalability:** Processes thousands of text reviews in seconds, providing real-time brand health monitoring.
 
-## 🛠️ Technical Architecture
+##Technical Architecture
 - **Algorithm:** Long Short-Term Memory (LSTM) Recurrent Neural Network
 - **Framework:** TensorFlow / Keras
 - **Dataset:** IMDB 50k Review Dataset (Utilized as foundational training for complex human sentiment and sarcasm)
 - **Interface:** Streamlit (Interactive Python web framework)
 - **Deployment:** Streamlit Community Cloud
 
-## 🚀 How to Use the Dashboard
+##How to Use the Dashboard
 1. Open the live web application: `[Insert Your Streamlit URL Here]`
 2. Paste any text-based customer review or tweet into the input box.
 3. Click "Analyze Sentiment."
 4. The AI will output a Confidence Score and provide a specific **Managerial Routing Action** based on the emotional trajectory of the text.
 
-## 📂 Repository Structure
+##Repository Structure
 - `app.py`: The Streamlit application script containing the UI and text preprocessing logic.
 - `sentiment_rnn.h5`: The compiled and trained LSTM Neural Network.
 - `requirements.txt`: Dependencies required for cloud deployment.
